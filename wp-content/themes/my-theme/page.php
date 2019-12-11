@@ -16,6 +16,8 @@
      * Il existe d'autres méthodes, par exemple pour afficher le Titre du contenu, on peut utiliser la méthode the_title()
      */
                 the_content();
+                
+                echo do_shortcode('[contact-form-7 id="114" title="Contact form 1"]');
         ?>
 
 <!-- VOTRE CODE HTML COMMENCE ICI -->
