@@ -1,5 +1,3 @@
-
-
 html{
     font-size: 62.5%;
 }
@@ -14,7 +12,7 @@ body{
 /*header*/ 
 
 .header{
-    background: #0d7619;
+    background-color: #0d7619;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -99,7 +97,7 @@ body{
     /*section2*/
 
 .section-2{
-    padding: 40px 40%;
+    padding: 40px 30%;
 }
 
 .section-2 p{
@@ -112,7 +110,8 @@ body{
 }
 
 .section-2 .text1{
-    line-height: 2rem;
+    line-height: 3rem;
+    font-size: 18px;
 }
 
 /*section3*/
@@ -362,6 +361,35 @@ body{
 .pageactu h1{
     text-align: center;
     font-size: 35px;
+}
+
+    /*page contact*/
+.wpcf7_title{
+    font-size: 35px;
+    text-align: center;
+}
+
+.wpcf7-form p{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'hind';
+    font-size: 15px;
+}
+
+
+.wpcf7-submit{
+    background-color: #0d7619;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 15px;
+    font-family: 'hind';
+    padding: 6px 12px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
     /*footer*/
