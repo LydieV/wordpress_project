@@ -21,7 +21,7 @@
                             <div class="img_actu"> <?php echo the_post_thumbnail()?></div>
                             <p class="card_titre"> <?php echo get_the_title(); ?></p>
                             <p class="card_contenu"> <?php echo get_the_excerpt();?></p>
-                            <input type="button" class="card_bouton" value="LIRE LA SUITE"/>
+                            <a href="<?php the_permalink();?>" class="card_button"> Lire la suite </a>
                             <p class="card_date"> <?php echo get_the_date();?></p>
                     </div>
 
