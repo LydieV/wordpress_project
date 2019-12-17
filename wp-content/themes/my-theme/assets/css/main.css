@@ -7,6 +7,8 @@ body{
     margin: 0 auto;
     padding: 0 auto;
     font-family: 'hind';
+    position: relative;
+    min-height: 950px;
 }
 
 /*header*/ 
@@ -336,6 +338,7 @@ body{
     margin-right: auto;
     margin-left: auto;
     justify-content: space-between;
+    margin-bottom: 40px;
 }
 
 .section-7 .card_actu{
@@ -430,11 +433,32 @@ body{
     border-radius: 10px;
 }
 
-    /*footer*/
+/*single*/
+
+.article_complet{
+  /*  margin-left: auto;
+    margin-right: auto;*/
+    margin: 90px auto;
+    width: 40%;
+}
+
+.article_complet h2{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.article_complet p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+/*footer*/
 .footer{
     background-color: #3E3E3E;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 20px 0!important;
+    bottom: -10px;
+    width: 100%;
 }
 .footer .menu ul{
     list-style-type: none;
