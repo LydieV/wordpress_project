@@ -470,3 +470,10 @@ body{
     color: white;
     font-size: 16px;
 }
+
+/*page contact*/
+.titre_erreur{
+    text-align: center;
+    font-size: 35px;
+    margin: 300px 0;
+}

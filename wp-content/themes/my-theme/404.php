@@ -1,5 +1,5 @@
 <?php get_header(); ?>
 
-<p> erreur 404</p>
+<h2 class="titre_erreur"> Désolé, cette page est introuvable : erreur 404</h2>
 
 <?php get_footer(); ?>
