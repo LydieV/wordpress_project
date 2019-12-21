@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <div class="section-7 pageactu">
-    <h1> Les actus </h1>
+    <h1 class="section-title1"> Les actus </h1>
     <?php
         if ( have_posts() ) {
             echo "<div class='actu'>";
