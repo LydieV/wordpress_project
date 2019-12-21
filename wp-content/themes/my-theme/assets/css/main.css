@@ -11,6 +11,24 @@ body{
     min-height: 950px;
 }
 
+/*plusieurs sections*/
+.button_sinscrire{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    border-radius: 25px;
+    border: none;
+    padding: 10px 20px;
+    background-color: #395e1b;
+    color: white;
+    width: 18%;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+}
+
+
 /*header*/ 
 
 .header{
@@ -85,16 +103,6 @@ body{
     font-size: 35px;
 }
 
-.button_banniere{
-    margin-right: auto;
-    margin-left: auto;
-    display: block;
-    border-radius: 20px;
-    border: none;
-    padding: 10px 20px;
-    background-color: #395e1b;
-    color: white;
-}
 
     /*section2*/
 
@@ -109,6 +117,16 @@ body{
 .section-2 .section-title1{
     text-transform: uppercase;
     font-size: 35px;
+    position: relative;
+}
+
+.section-2 .section-title1:after{
+    content: "";
+    position: absolute;
+    width: 12%;
+    bottom: -10px;
+    left: 45%;
+    border-bottom: 3px solid #615858;
 }
 
 .section-2 .text1{
@@ -117,7 +135,6 @@ body{
 }
 
 /*section3*/
-
 .img_section3{
     background-repeat: no-repeat;
     background-size: cover;
@@ -130,6 +147,16 @@ body{
     font-size: 35px;
     margin-top: 0;
     text-transform: uppercase;
+    position: relative;
+}
+
+.section-3 .section-title1:after{
+    content: "";
+    position: absolute;
+    width: 5%;
+    bottom: -10px;
+    left: 48%;
+    border-bottom: 3px solid #615858;
 }
 
 .section-3 .fond_programme{
@@ -180,6 +207,16 @@ body{
     font-size: 35px;
     margin-top: 0;
     text-transform: uppercase;
+    position: relative;
+}
+
+.section-4 .section-title1:after{
+    content: "";
+    position: absolute;
+    width: 5%;
+    bottom: -10px;
+    left: 48%;
+    border-bottom: 3px solid #615858;
 }
 
 .section-4 p:nth-child(2){
@@ -234,6 +271,16 @@ body{
     font-size: 35px;
     margin-top: 0;
     text-transform: uppercase;
+    position: relative;
+}
+
+.section-5 .section-title1:after{
+    content: "";
+    position: absolute;
+    width: 5%;
+    bottom: -10px;
+    left: 47%;
+    border-bottom: 3px solid #615858;
 }
 
 .section-5 .infopratique_fond{
@@ -277,6 +324,16 @@ body{
     font-size: 35px;
     margin-top: 0;
     text-transform: uppercase;
+    position: relative;
+}
+
+.section-6 .section-title1:after{
+    content: "";
+    position: absolute;
+    width: 3%;
+    bottom: -10px;
+    left: 48.5%;
+    border-bottom: 3px solid #615858;
 }
 
 .section-6_contenu{
@@ -329,6 +386,16 @@ body{
     font-size: 35px;
     margin-top: 0;
     text-transform: uppercase;
+    position: relative;
+}
+
+.section-7 .section-title1:after{
+    content: "";
+    position: absolute;
+    width: 3%;
+    bottom: -10px;
+    left: 48.5%;
+    border-bottom: 3px solid #615858;
 }
 
 .section-7 .actu{

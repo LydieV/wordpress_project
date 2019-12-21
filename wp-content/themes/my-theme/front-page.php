@@ -26,7 +26,7 @@
         <p class="section-title1"><?php the_field('banner_baseline'); ?> </p>
         <p class="section-title title2"> <?php the_field('banner_title_brown'); ?> </p>
         <p class="section-title title3"> <?php the_field('banner_title_green'); ?></p>
-        <input type="button" value="S'INSCRIRE AUX RENCONTRES" class="button_banniere"/>
+        <a href="<?php the_field('banner_register_link')?>" class="button_sinscrire"> <?php the_field('register_title_link')?></a>
     </section>
 
     <section class="section-2">
@@ -73,7 +73,7 @@
                 </div>
             </div>
             <img src="<?php echo $img_bas_section3['url'] ?>" class="img_bas_prog" alt="img_bas_programme"/>
-            <input type="button" value="S'INSCRIRE AUX RENCONTRES" class="button_banniere"/>
+            <a href="<?php the_field('programme_link')?>" class="button_sinscrire"> <?php the_field('programme_title_link')?></a>
         </div>
         
         
