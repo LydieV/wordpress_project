@@ -1,13 +1,10 @@
 <footer class="footer">
     <nav class="menu">
-        <ul>
-            <li> Mentions légales </li>
-            <li> Plan du site </li>
-            <li> Contact </li>
-        </ul>
+        <?php 
+                wp_nav_menu( array('theme_location' => 'nav_xyz') );
+        ?>
             
     </nav>
- <!-- <p>&copy; <?php/* echo __('Tous droits réservés');*/ ?></p>-->
 </footer>
 <?php wp_footer(); ?>
 </body>
