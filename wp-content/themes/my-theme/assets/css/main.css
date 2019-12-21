@@ -480,7 +480,8 @@ body{
     margin-right: auto;
     text-align: center;
     font-family: 'hind';
-    font-size: 15px;
+    font-size: 16px;
+    margin-bottom: 30px;
 }
 
 .wpcf7-submit{
@@ -498,17 +499,20 @@ body{
 
 .wpcf7-text{
     width: 80%;
+    border-radius: 20px;
+    border: 1px solid black;
+    height: 20px;
 }
 
 .wpcf7-textarea{
     border-radius: 10px;
+    border: 1px solid black;
+    resize: none;
 }
 
 /*single*/
 
 .article_complet{
-  /*  margin-left: auto;
-    margin-right: auto;*/
     margin: 90px auto;
     width: 40%;
 }
@@ -546,7 +550,7 @@ body{
     font-size: 18px;
 }
 
-/*page contact*/
+/*page 404*/
 .titre_erreur{
     text-align: center;
     font-size: 35px;
